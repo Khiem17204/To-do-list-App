@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="myDiv" class="header">
+    <div>
+        <h2>TO DO LIST</h2>
+        <input type="text" id="myInput" placeholder="What you want to do today?">
+        <span onclick="newElement()" class="addBtn">Add to list</span>
+    </div>
+    <div class="colorchange">
+        <label for="colorpicker" id="khiem">Background color</label>
+        <input type="color" id="colorpicker" value="#ff0000" oninput="color()">
+    </div>
+</div>
+
+<ul id="myUL">
+</ul>
+<script src="script.js"></script>
+</body>
+</html>
